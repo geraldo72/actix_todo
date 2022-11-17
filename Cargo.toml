@@ -1,22 +1,9 @@
 [package]
-authors = ["Render Developers <dev@render.com>"]
-name = "actix-todo"
-version = "0.1.1"
-edition = "2018"
+name = "actix_todo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix-web = "1.0.0"
-actix-files = "0.1.1"
-actix-session = "0.1.1"
-dotenv = "0.14.1"
-env_logger = "0.6.1"
-futures = "0.1.27"
-log = "0.4.6"
-serde = "1.0.92"
-serde_derive = "1.0.92"
-serde_json = "1.0.39"
-tera = "0.11.20"
-
-[dependencies.diesel]
-features = ["postgres", "r2d2"]
-version = "1.4.2"
+actix-web = "4.2.1"
